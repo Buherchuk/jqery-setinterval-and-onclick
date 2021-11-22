@@ -1,0 +1,132 @@
+.input-group{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 5px 0;
+}
+
+.progress-group{
+    margin: 10px 0;
+}
+
+.progress{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.progress span{
+    margin-left: 10px;
+}
+
+.progress-bar{
+    /* width: 100px; */
+    height: 20px;
+}
+
+.progress:nth-of-type(1) .progress-bar{
+    background-color: lightcoral;
+}
+
+.progress:nth-of-type(2) .progress-bar{
+    background-color: lightgreen;
+}
+
+.progress:nth-of-type(3) .progress-bar{
+    background-color: lightskyblue;
+}
+
+li{
+    width: 130px;
+    height: 40px;
+    background-color: lightgray;
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.resize{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #000;
+    width: 150px;
+    height: 30px;
+}
+
+.scroll{
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    border: 1px solid #000;
+    width: 150px;
+    height: 30px;
+}
+
+.big-block{
+    width: 200px;
+    height: 2000px;
+    background: linear-gradient(to top, lightgreen, lightcoral)
+}
+
+.wrapper{
+    width: 800px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.box:nth-of-type(1){
+    background-color: lightpink;
+}
+
+.box:nth-of-type(2){
+    background-color: lightsalmon;
+}
+
+.box:nth-of-type(3){
+    background-color: lightseagreen;
+}
+
+.box:nth-of-type(4){
+    background-color: lightskyblue;
+}
+
+.box:nth-of-type(5){
+    background-color: lightslategray;
+}
+
+.modal-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.modal{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    z-index: 99;
+}
